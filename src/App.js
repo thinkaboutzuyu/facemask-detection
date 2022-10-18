@@ -431,7 +431,7 @@ function App() {
       }%`;
       return (
         <div>
-          <div>{"Downloading models...."}</div>
+          <div>{"Loading models...."}</div>
           <div>{faceDetectionModelProgress}</div>
           <div>{maskClassifierModelProgress}</div>
         </div>

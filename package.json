@@ -1,6 +1,6 @@
 {
-  "homepage": "https://TINGWEIJING.github.io/tfjs-face-mask-detection",
-  "name": "tfjs-face-mask-detection",
+  "homepage": "https://thinkaboutzuyu.github.io/facemask-detection",
+  "name": "facemask-detection",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
