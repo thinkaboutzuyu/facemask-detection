@@ -141,20 +141,21 @@ function App() {
       drawWidth = expectedWebCamWidth;
       captureHeight = 720;
       captureWidth = 1280;
-    } else if (!isUsingWebcam) {
-      /** @type {HTMLImageElement} */
-      inputData = document.getElementById("test_img");
-      cnvs = document.getElementById("test_canvas");
+    // } else if (!isUsingWebcam) {
+    //   /** @type {HTMLImageElement} */
+    //   inputData = document.getElementById("test_img");
+    //   cnvs = document.getElementById("test_canvas");
 
-      // force resize bounding box canvas
-      cnvs.width = expectedImgWidth;
-      cnvs.height = expectedImgHeight;
+    //   // force resize bounding box canvas
+    //   cnvs.width = expectedImgWidth;
+    //   cnvs.height = expectedImgHeight;
 
-      // dimension variables
-      drawHeight = expectedImgHeight;
-      drawWidth = expectedImgWidth;
-      captureHeight = expectedImgHeight;
-      captureWidth = expectedImgWidth;
+    //   // dimension variables
+    //   drawHeight = expectedImgHeight;
+    //   drawWidth = expectedImgWidth;
+    //   captureHeight = expectedImgHeight;
+    //   captureWidth = expectedImgWidth;
+    // } 
     } else {
       return;
     }
@@ -450,8 +451,8 @@ function App() {
         maskClassificationScores[i] !== undefined
       ) {
         labelName = maskClassificationScores[i] > 0 ? "No Mask" : "Mask";
-        faceScoreLabel = `Face: ${faceDetectionScores[i].toFixed(2)}`;
-        maskScoreLabel = `Mask: ${maskClassificationScores[i].toFixed(2)}`;
+        // faceScoreLabel = `Face: ${faceDetectionScores[i].toFixed(2)}`;
+        // maskScoreLabel = `Mask: ${maskClassificationScores[i].toFixed(2)}`;
       }
       return (
         <div key={i} style={styles.faceMaskContainer}>
