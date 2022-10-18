@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/facemask-detection/static/css/main.a617e044.chunk.css",
+    "main.js": "/facemask-detection/static/js/main.2f34927e.chunk.js",
+    "main.js.map": "/facemask-detection/static/js/main.2f34927e.chunk.js.map",
+    "runtime-main.js": "/facemask-detection/static/js/runtime-main.0900c2bd.js",
+    "runtime-main.js.map": "/facemask-detection/static/js/runtime-main.0900c2bd.js.map",
+    "static/js/2.a13e9f13.chunk.js": "/facemask-detection/static/js/2.a13e9f13.chunk.js",
+    "static/js/2.a13e9f13.chunk.js.map": "/facemask-detection/static/js/2.a13e9f13.chunk.js.map",
+    "static/js/3.fa5ef3de.chunk.js": "/facemask-detection/static/js/3.fa5ef3de.chunk.js",
+    "static/js/3.fa5ef3de.chunk.js.map": "/facemask-detection/static/js/3.fa5ef3de.chunk.js.map",
+    "index.html": "/facemask-detection/index.html",
+    "static/css/main.a617e044.chunk.css.map": "/facemask-detection/static/css/main.a617e044.chunk.css.map",
+    "static/js/2.a13e9f13.chunk.js.LICENSE.txt": "/facemask-detection/static/js/2.a13e9f13.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.0900c2bd.js",
+    "static/js/2.a13e9f13.chunk.js",
+    "static/css/main.a617e044.chunk.css",
+    "static/js/main.2f34927e.chunk.js"
+  ]
+}
